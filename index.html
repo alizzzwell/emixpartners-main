@@ -45,6 +45,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  
   </head>
 
   <body>
@@ -75,13 +76,14 @@
           <i class="bi bi-list mobile-nav-toggle d-none"></i>
         </nav><!-- .navbar -->
 
-        
-        <form name="language">
-          <select name="lang1" id="lang1" onchange="window.location.href= this.form.lang1.options[this.form.lang1.selectedIndex].value">
-            <option value="file:///Users/alexandersalapare/Documents/emixpartners-main/index.html" class="active">EN</option>
-            <option value="file:///Users/alexandersalapare/Documents/emixpartners-main/PT/index-PT.html">PT</option>
-          </select>
-        </form>
+        <div class="langMenu">
+          <form name="language">
+            <select name="lang1" id="lang1" onchange="window.location.href= this.form.lang1.options[this.form.lang1.selectedIndex].value">
+              <option value="file:///Users/alexandersalapare/Documents/emixpartners-main/index.html" class="active">EN</option>
+              <option value="file:///Users/alexandersalapare/Documents/emixpartners-main/PT/index-PT.html">PT</option>
+            </select>
+          </form>
+        </div>
 
         <div class="buttonContainer">
           <a class="btn-signup scrollto" href="https://login.emixpartners.com/signup.php" target="_blank">Sign Up</a>
@@ -94,20 +96,21 @@
     <section id="hero-animated" class="hero-animated d-flex align-items-center ">
       <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
         data-aos="zoom-out">
-        <div class="row gy-4 ">
+        <div class="row gy-4">
 
           <div class="col-lg-6 banner-bg">
             <img src="assets/images/Joiabet-logo-v2.png" class="img-fluid animated">
           </div>
 
-          <div class="col-lg-6 d-flex flex-column">
+          <div class="col-lg-6 d-flex flex-column banner-bg">
             <h2>Welcome to <br /> EMIX Partners!</h2>
-            <span>Join today, start promoting and earn big! </span>
+            <span>Join today, start promoting and earn big!</span>
             <a class="btn-get-started scrollto" href="https://login.emixpartners.com/signup.php" target="_blank">BECOME
               A PARTNER</a>
 
             <a class="btn-get-started2 scrollto" href="index.html#contact">SAY HI</a>
           </div>
+
           <div class="col-lg-6 banner-bg">
             <img src="assets/images/Maharaja-Fortune-Logo.png" class="img-fluid animated">
           </div>

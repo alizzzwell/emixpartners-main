@@ -518,6 +518,18 @@ section {
   position: relative;
  
 } */
+
+@media (min-width: 992px) {
+  .banner-bg {
+    flex: 0 0 auto;
+    width: 33%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 .hero-animated h2 {
   margin: 0 0 10px 0;
   font-size: 60px;
