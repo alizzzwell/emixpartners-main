@@ -3041,3 +3041,9 @@ max-width: 200px;
   height: 32px;
   background-image: url();
 }
+/*--------------------------------------------------------------
+# Language image
+--------------------------------------------------------------*/
+.dropdown-menu img {
+  margin-right: 5px;
+}
